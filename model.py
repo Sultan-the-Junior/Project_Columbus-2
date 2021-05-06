@@ -1,5 +1,8 @@
 
 
+#1st change
+#2nd change
+
 # # Importing Essentials
 import pandas as pd
 import numpy as np
@@ -12,6 +15,12 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OneHotEncoder
+
+
+#change 1
+
+
+change2
 
 def drop_id_column(df_input):
     df_input.drop(['Id'], axis=1, inplace=True)
